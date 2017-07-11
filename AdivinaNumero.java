@@ -7,9 +7,14 @@ package adivinanumero;
 
 /**
  *
- * @author pc
+ * @author JIMMYLOPEZ
  */
-import java.lang.*;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 import java.io.*;
 
 public class AdivinaNumero {
@@ -26,7 +31,7 @@ public class AdivinaNumero {
         try {
             dato = teclado.readLine();
         } catch (IOException error) {
-        };
+        }
         return dato;
     }
 
@@ -107,7 +112,7 @@ public class AdivinaNumero {
             System.out.println("SE ENCUENTRA TU NUMERO AQUI ");
             System.out.println("1.- SI");
             System.out.println("2.- NO");
-            des = Integer.parseInt(NU.leerDato());
+            des = Integer.parseInt(AdivinaNumero.leerDato());
 
             count++;
 
@@ -120,7 +125,7 @@ public class AdivinaNumero {
             System.out.println();
             System.out.println();
         }
-        System.out.println("EL NUMERO QUE PENSASTE ERA:");
-        System.out.println(res);
+        System.out.println("EL NUMERO QUE PENSASTE ERA: ");
+        System.err.print(res);
     }
 }
