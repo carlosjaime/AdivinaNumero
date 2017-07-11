@@ -126,6 +126,6 @@ public class AdivinaNumero {
             System.out.println();
         }
         System.out.println("EL NUMERO QUE PENSASTE ERA: ");
-        System.err.print(res);
+        System.err.print(res+"\n");
     }
 }
